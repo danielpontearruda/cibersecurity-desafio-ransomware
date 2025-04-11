@@ -1,9 +1,9 @@
 # cibersecurity-desafio-ransomware
 
-## Entendendo um Ransomware na Prática com Python
+### Entendendo um Ransomware na Prática com Python
 
 # Etapas de criação do Ransomware
-## Totalmente confeccionado através do terminal do Kali Linux.
+### Totalmente confeccionado através do terminal do Kali Linux.
 - Antes de tudo, criei uma pasta "projeto-ransomware" e, dentro dela, criei os arquivos "encrypter.py", "decrypter.py" e "teste.txt. Assim definindo o diretório que tanto o encriptador quanto o descriptador iriam funcionar, ambos sobre o arquivo "teste.txt";
 - Após a criação dos arquivos, confeccionei o código do encriptador, utilizando da biblioteca "pyaes" para me auxiliar no processo de encriptação do arquivo. Esse código abre e lê o arquivo "teste.txt", remove o arquivo, cria uma chave de criptografia (que deve conter 16 caracteres para se enquadrar nos padrões devidos), criptografa o arquivo e o salva no diretório.
 - Logo em seguida elaborei o código do arquivo do descriptador, também me utilizando da biblioteca pyaes para reunir as informações já declaradas no arquivo de encriptação e, através dessa biblioteca, descriptografar o arquivo e fornecer as informações contidas antes nele. Esse código abre e lê o arquivo criptografado, usa a chave para descriptografia, remove o arquivo criptografado e cria o arquivo descriptografado novamente;
