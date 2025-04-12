@@ -1,6 +1,6 @@
 # cibersecurity-desafio-ransomware
 
-### Entendendo um Ransomware na Prática com Python
+### Criação de um Ransomware na Prática com Python
 
 # Etapas de criação do Ransomware
 ### Totalmente confeccionado através do terminal do Kali Linux.
